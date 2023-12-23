@@ -1,4 +1,4 @@
-button{
+/* button{
     background-color: #fff;
     border: none;
     color: #333;
@@ -7,4 +7,45 @@ button{
     font-weight: 400;
     padding: 8px 10px;
    
+} */
+
+.header{
+    height: 90px;
+    background-color: brown;
+    padding: 20px 0;
+}
+
+ul{
+    list-style-type: none;
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+li{
+    cursor: pointer;
+    color: white
+}
+
+li:first-child {
+    font-size: 25px;
+}
+
+.basket-wrapper{
+    width: 300px;
+    box-shadow: 5px 5px 10px 10px rgba(0,0,0,0.5);
+   margin: 50px auto;
+   display:flex;
+    flex-direction: column;
+    align-items: center;
+
+    padding: 20px 10px;
+}
+
+.button{
+    background-color: brown;
+    padding: 5px 20px;
+    border: none;
+    outline: none;
+    color: white;
 }
